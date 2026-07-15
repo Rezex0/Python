@@ -13,3 +13,5 @@ for i in items:
          break
 else:
     print("All Number are odd")
+
+
