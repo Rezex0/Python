@@ -1,6 +1,6 @@
 # Sorting
 letters = ['e', 'a', 'f']
-# letters.reverse()
+letters.reverse()
 new_list = reversed(letters)
 print('Original list:', letters)
 # print('reversed list:',new_list) #Reverse the list
