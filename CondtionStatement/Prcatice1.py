@@ -42,7 +42,7 @@ else:
 number1 = int(input("ente first number:"))
 number2 = int(input("Enter secound  number:"))
 
-if number1 > number2:
-    if number1 == number2:
 
 
+
+         
