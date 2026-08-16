@@ -23,4 +23,3 @@ print(comb)
 ids = [101, 102, 103]
 names = ['Ali', 'sara', 'John ']
 print(list(zip(ids, names)))
-
