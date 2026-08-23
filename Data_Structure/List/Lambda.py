@@ -29,7 +29,7 @@ students = [['Maria', 85],
            ['Kumar', 90],
            ['Max', 60]]
 
-print(list(filter(lambda row:row[ 1] > 70, students)))
+print(list(filter(lambda row:row[1] > 70, students)))
 
 
 print(students[0][1] > 70) 

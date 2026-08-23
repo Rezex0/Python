@@ -38,7 +38,7 @@ print((list(filter(None,Data))))
 
 
 items =  ['Sql' , '123',  'Python' , '42']
-print(list(filter(str.isalpha,items)))
+# print(list(filter(str.isalpha,items)))
 
 for i in filter(str.isalpha,items):
     print(i)
