@@ -28,10 +28,21 @@ Names = ['  John', 'jane   ', ' Kumar']
 print(list(map(str.strip, Names)))
 
 
+# students = ["Rahul", "Priya", "Amit"]
+# print(students.upper())
+
+#Use of Filter function
+
+Data = ['a', '','b' , None,'C', False]
+print((list(filter(None,Data))))
 
 
+items =  ['Sql' , '123',  'Python' , '42']
+print(list(filter(str.isalpha,items)))
 
+for i in filter(str.isalpha,items):
+    print(i)
 
+item = "123"
+print(str.isalpha(item))
 
-students = ["Rahul", "Priya", "Amit"]
-print(students.upper())
