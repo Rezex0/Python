@@ -34,11 +34,17 @@ def morning():
 
 morning()
 
-Country =  {"IndiA    " , "NepaL   " , "BangladesH   "}
+Country =  { "IndiA    " , "NepaL   " , "BangladesH   " }
 
-def clean_data(Country):
-   print(Country.strip().lower())
+# for Country_data in Country:
+#    print(Country_data.strip())
 
-clean_data(Country)
 
+def Clean_data(Country_data):
+
+ for Country_data in Country:
+    Country_data = Country_data.strip().upper()
+    print(Country_data)
+
+Clean_data(Country)
 
