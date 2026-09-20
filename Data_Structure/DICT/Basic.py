@@ -46,10 +46,11 @@ for key, value in User.items():
 User.update({"age" : 45, "City": "New york"})
 print(User)
 
-age = User.pop("city") #
+age = User.pop("city" ,"Not found") # Not found is the default value if key is not present, it will not throw error
 print(User)
 print("Remove itme:", age)
 
 #Ignore the error
 City = User.pop("location", "Not Found")
 print(City)
+
